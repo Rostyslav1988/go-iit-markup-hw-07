@@ -15,8 +15,6 @@
     letter-spacing: 0.02em;
     color: var(--color-text);
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
     transition: 250ms;
     
 &:hover,
@@ -24,7 +22,16 @@
     color: var(--focus-color);
 }
 }
-
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: 250ms;
+    
+}
 .icon-sec-red {
     padding-top: 25px;
     
@@ -98,6 +105,7 @@
 .nav-list {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 .navigation-link3 {
         font-weight: 500;

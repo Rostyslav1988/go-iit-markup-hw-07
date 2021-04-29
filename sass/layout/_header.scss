@@ -26,8 +26,6 @@
     color: var(--color-second-text);
     font-style: normal;
     fill: var(--color-second-text);
-    padding-bottom: 20px;
-    padding-top: 20px;
     
 &:hover,
 &:focus {
@@ -38,7 +36,19 @@
     fill: var(--focus-color);
 }
 }
-
+.mail-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-second-text);
+    font-style: normal;
+    fill: var(--color-second-text);
+    
+}
 
 .icon-svg {
     justify-content: center;
@@ -64,16 +74,4 @@ fill: var(--color-second-text);
     color: var(--focus-color);
     text-decoration: none;
 }
-}
-
-.mail-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--color-second-text);
-    font-style: normal;
 }
